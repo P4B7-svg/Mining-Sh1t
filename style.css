@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #87ceeb; /* warna langit */
+}
+
+.hidden {
+  display: none;
+}
+
+#menu, #shop {
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#gameCanvas {
+  background: #e0f7fa; /* warna salju */
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #000;
+}
+.item {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+.item img {
+  width: 80px;
+  height: 80px;
+}
