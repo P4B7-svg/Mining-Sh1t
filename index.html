@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mining SH1T</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bg-music" loop>
+    <source src="christmas.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="menu">
+    <h1>Mining SH1T</h1>
+    <button id="play-btn">Play Game</button>
+    <button id="shop-btn">Beli Item</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <button id="back-btn">Kembali ke Menu</button>
+  </div>
+
+  <div id="shop" class="hidden">
+    <h2>Shop</h2>
+    <div class="item">
+      <img src="pickaxe_bad.png" alt="Pickaxe Jelek">
+      <p>Pickaxe Jelek</p>
+    </div>
+    <div class="item">
+      <img src="pickaxe_good.png" alt="Pickaxe Bagus">
+      <p>Pickaxe Bagus</p>
+    </div>
+    <button id="shop-back-btn">Kembali ke Menu</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
